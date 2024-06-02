@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style></style>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        .ghgh{
+             height:100vh;
+             width:100%;
+             background-image:url("Mercedes2.jpg");
+             background-repeat:no-repeat;
+             background-size:cover;
+             background-position: left;
+
+        }
+        .popo{
+            padding: 0px 40px;
+        }
+        .homeheader{
+              height: 50px;
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            color: white;
+
+        }
+        .logo span{
+            font-size: 30px;
+            font-weight: bold; 
+            color: white;
+        }
+        .klkl{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .xyz{
+            background-color: aqua;
+            height: 90px;
+            width: 100%;
+
+        }
+
+        .blur{
+            display: block;
+            flex-direction: column;
+            background-color: rgb(244, 243, 236);
+            color: black;
+            justify-content: center;
+            width: 100%;
+            height: 80px;
+        }
+
+        .jk{
+            color: white;
+            display: none;
+            z-index: 1000;
+            align-items: center;
+            gap: 20px;
+            font-size: 25px;
+            font-weight: bold;
+            margin-top: 10px;
+            /* visibility: hidden; */
+        }
+        .jk:hover{
+            color: gold;
+            cursor: pointer;
+        }
+        .menu{
+            display: none;
+        }
+
+        .klkl li{
+            list-style-type: none;
+        }
+        .klkl li a{
+            text-decoration: none;
+        }
+        .koko{
+            color: skyblue;
+        }
+       
+        h1{
+            font-size: 50px;
+        }
+        h1 span{
+            color: gold;
+        }
+        p{
+            font-size: 25px;
+        }
+
+        .homebox{
+         color: white;
+         display: flex;
+         flex-direction: column;
+         justify-content: end;
+         align-items: start;
+         text-align: left;
+         margin-top: 40px;
+         gap: 40px;
+        }
+        .section{
+            width: 100%;
+             height: 90vh;
+             display: flex;
+             flex-direction: column;
+             text-align:start;
+             justify-content:center;
+             align-items: flex-start;
+
+        }
+        .xyz{
+            background-color: red;
+        }
+        .homebox2{
+            display: flex;
+            flex-direction: column;
+        }
+        .homebox5{
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+        }
+        .homebox6{
+            color: white;
+            display: flex;
+        }
+        .last{
+            display: flex;
+            list-style-type: none;
+            gap: 30px;
+   
+        }
+        
+        @media (max-width:1000px) {
+             h1{
+                font-size: 25px;
+                               
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+
+
+        @media (max-width:700px) {
+             .klkl{
+                /* display: none; */
+                visibility: hidden;
+             }
+             p{
+                font-size: 15px;
+             }
+             .menu{
+                display: block;
+             }
+        }
+      @media only screen and(max-width:600px) {
+        
+        .ghgh{
+            height: 100vh;
+            width: 130%;
+            min-width:100% ;
+             background-image: url("Mercedes2.jpg");
+             background-repeat: no-repeat;
+             background-size:cover;
+             background-position: left;
+
+        }
+      }
+      .footer{
+        width: 100%;
+        height: 50vh;
+        background:linear-gradient(to right,rgb(2, 115, 244),blue) ;
+
+      }
+       
+    </style>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="ghgh">
+        <div class="popo">
+    <div class="homeheader">
+        <div class="logo"><span>Bu</span>gatti</div>
+        <ul class="klkl" id="header" >
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#category">Category</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>  <i class="fa-solid fa-check koko "></i> </li>
+
+        </ul>
+        <div class="menu" ><i class="fa-solid fa-bars jk" onclick=""></i>
+
+        </div>
+
+    </div>
+
+    <div class="section">
+    <div class="homebox">
+        <h1><span>Bugatti</span>Veyron <span>16.4 </span> </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Magni ratione nam maxime voluptatem.  <br> doloribus fuga recusandae corrupti omnis?</p>
+        <br>
+        <br>
+        <p class="mono">Lorem ipsum dolor sit amet.</p>
+    </div>
+
+
+    <br><br>
+    <div class="homebox6">
+    <div class="homebox5">
+    <div class="homebox2">
+        <div class="homebox3">Max Speed</div>
+        <div class="homebox4">457/kmh</div>
+    </div>
+    <div class="homebox2">
+        <div class="homebox3">Max Speed</div>
+        <div class="homebox4">457/kmh</div>
+    </div>
+    <div class="homebox2">
+        <div class="homebox3">Max Speed</div>
+        <div class="homebox4">457/kmh</div>
+    </div>
+    <div class="homebox2">
+        <div class="homebox3">Max Speed</div>
+        <div class="homebox4">457/kmh</div>
+    </div>
+   </div>
+    
+   <div class="last">
+    <li>  <i class="fa-solid fa-check koko"></i> </li>
+    <li>  <i class="fa-solid fa-check koko"></i> </li>
+    <li>  <i class="fa-solid fa-check koko "></i> </li>
+       
+   </div>
+
+    </div>
+    </div>
+    
+        <!-- </div> -->
+        </div>
+
+    </div>
+
+
+     <!-- <div class="footer">
+
+     </div> -->
+
+       
+
+
+
+
+    <script>
+       
+  
+      const menuBtn = document.querySelector('.menu-btn');
+      const navlinks = document.querySelector('.nav-links');
+      menuBtn.addEventListener('click',() =>{
+         navlinks.classList.toggle('mobile-menu')
+      })
+   
+
+    </script>
+</body>
+</html>
+          
